@@ -1,0 +1,30 @@
+//   aside qismi uchun
+.aside {
+  .aside-main {
+    .aside-link {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+      .home-aside {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #808080;
+      }
+      .programming-aside {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        color: #1c3554;
+      }
+    }
+    .aside-mid {
+      .title-aside {
+        font-size: 64px;
+        color: #1c3554;
+        font-weight: 700;
+      }
+    }
+  }
+}
