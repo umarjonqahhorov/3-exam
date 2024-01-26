@@ -1,2 +1,119 @@
-.details-page {
+.header-courses {
+  background-color: #666666;
+  .navbar {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: #666666;
+    display: flex;
+    justify-content: space-between;
+    #text {
+      color: red;
+      font-size: 16px;
+      font-weight: 400;
+      //   background-color: #666666;
+      background-color: #f72585;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      gap: 24px;
+      .link-1 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+      }
+      #text {
+        color: #fff;
+        background-color: #f72585;
+      }
+    }
+    #light-dark {
+      cursor: pointer;
+      background-color: #666666;
+      .dark {
+        background: black;
+      }
+
+      .dark * {
+        color: white !important;
+      }
+    }
+    .nav-buttons {
+      display: flex;
+      gap: 12px;
+      .link-btn {
+        cursor: pointer;
+        border: 2px solid #fff;
+        padding: 8px 32px;
+        border-radius: 8px;
+        background-color: #666666;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .link-btn:hover {
+        transition: 0.3s;
+        background-color: #1c3554;
+        color: #fff;
+      }
+      .btn-2 {
+        cursor: pointer;
+        border: 2px solid #f72585;
+        padding: 8px 32px;
+        color: #fff;
+        font-size: 16px;
+        background-color: #f72585;
+        font-weight: 400;
+        border-radius: 8px;
+      }
+      .btn-2:hover {
+        transition: 0.3s;
+        background-color: #fff;
+        color: #f72585;
+        border: 2px solid #f72585;
+      }
+    }
+  }
+}
+.hero {
+  background-color: #666666;
+  padding-top: 52px;
+  .hero-main-course {
+    .hero-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .hero-p {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #e6e6e6;
+      }
+    }
+    .hero-mid {
+      font-size: 48px;
+      color: #fff;
+      font-weight: 700;
+      font-family: sans-serif;
+      margin-top: 63px;
+      margin-bottom: 28px;
+    }
+    .hero-rating {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .number {
+        color: #fff;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 500;
+      }
+      .dates {
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
 }
