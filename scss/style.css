@@ -1007,7 +1007,7 @@ body {
 .hero .hero-main-course .hero-rating {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 .hero .hero-main-course .hero-rating .number {
   color: #fff;
@@ -1020,6 +1020,62 @@ body {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
+}
+.hero .hero-main-course .hero-name-2 {
+  display: flex;
+  align-items: center;
+  margin-top: 44px;
+  gap: 25px;
+}
+.hero .hero-main-course .hero-name-2 .hero-circle {
+  width: 50px;
+  aspect-ratio: 1/1;
+  background-color: #aaaaaa;
+  border-radius: 50%;
+}
+.hero .hero-main-course .hero-name-2 .number {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.hero .hero-main-course .hero-buttons {
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+.hero .hero-main-course .hero-buttons .details-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f72585;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 12px 32px;
+  color: #fff;
+}
+.hero .hero-main-course .hero-buttons .btn-share {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff5f9;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 12px 32px;
+  color: #f72585;
+}
+
+.aside-details .aside-details-main .aside-det-left .left-first .first-title {
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #1c3554;
 }
 
 @font-face {

@@ -101,7 +101,7 @@
     .hero-rating {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
       .number {
         color: #fff;
         font-size: 16px;
@@ -113,6 +113,69 @@
         color: #fff;
         font-size: 14px;
         font-weight: 400;
+      }
+    }
+    .hero-name-2 {
+      display: flex;
+      align-items: center;
+      margin-top: 44px;
+      gap: 25px;
+      .hero-circle {
+        width: 50px;
+        aspect-ratio: 1/1;
+        background-color: #aaaaaa;
+        border-radius: 50%;
+      }
+      .number {
+        color: #fff;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+    }
+    .hero-buttons {
+      padding-bottom: 80px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-top: 40px;
+      .details-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #f72585;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 8px;
+        padding: 12px 32px;
+        color: #fff;
+      }
+      .btn-share {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #fff5f9;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 8px;
+        padding: 12px 32px;
+        color: #f72585;
+      }
+    }
+  }
+}
+.aside-details {
+  .aside-details-main {
+    .aside-det-left {
+      .left-first {
+        .first-title {
+          font-size: 32px;
+          font-family: sans-serif;
+          font-weight: 700;
+          color: #1c3554;
+        }
       }
     }
   }
